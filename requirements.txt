@@ -1,0 +1,25 @@
+# Urban Environmental Intelligence – Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Core data handling
+polars>=0.20.0          # fast columnar DataFrame with lazy/streaming evaluation
+numpy>=1.26.0           # numerical computing
+
+# Machine learning
+scikit-learn>=1.4.0     # PCA, StandardScaler
+
+# Statistics
+scipy>=1.12.0           # gaussian_kde for Task 3
+
+# Visualisation
+matplotlib>=3.8.0       # all charts (Tasks 1-4)
+plotly>=5.18.0          # interactive dashboard charts
+
+# Web dashboard
+streamlit>=1.33.0       # interactive dashboard
+
+# API / networking
+requests>=2.31.0        # OpenAQ API calls with retry logic
+
+# Progress display (optional but nice)
+tqdm>=4.66.0            # progress bars in long loops
